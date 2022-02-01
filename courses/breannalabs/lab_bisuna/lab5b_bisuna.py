@@ -1,13 +1,13 @@
 """ lab5b """
-sum1 = 0
-num = 0
+SUM1 = 0
+NUM = 0
 
-while num != -999:
-    num = int(input("Enter a positive integer: "))
-    if num == -999:
-        break
+while NUM != -999:
+    NUM = int(input("Enter a positive integer: "))
+    if NUM != -999:
+        if NUM % 2 == 0:
+            SUM1 += NUM
     else:
-        if num % 2 == 0:
-            sum1 += num
+        break
 
-print("The sum of the positive even integers entered is",sum1)
+print("The sum of the positive even integers entered is",SUM1)
