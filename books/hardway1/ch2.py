@@ -1,3 +1,4 @@
+""" ex2 """
 # -*- coding: utf-8 -*-
 
 # A comment, this is so you can read your program later.
@@ -9,5 +10,3 @@ print("I could have code like this.") # and the comment is ignored
 # print "this won't run"
 
 print("This will run.")
-
-

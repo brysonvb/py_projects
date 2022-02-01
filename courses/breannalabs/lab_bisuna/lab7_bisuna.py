@@ -10,12 +10,14 @@ def min2(val1, val2=0):
     paramemter: val1 - value 1, val2 - value 2 default 0
     return: minimum value
     """
+    retval = 0
     if val1 > val2:
-        return val2
+        retval = val2
     elif val2 > val1:
-        return val1
+        retval = val1
     else: # numbers are equal, return either
-        return val1
+        retval = val1
+    return retval
 
 
 def main():
