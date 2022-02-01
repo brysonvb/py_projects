@@ -20,7 +20,7 @@ def main():
     """ driver """
     # increase recursion depth
     # even at 6000 recursion limit, my computer can only handle 3922
-    sys.setrecursionlimit(6000) 
+    sys.setrecursionlimit(6000)
     num = 3922
     # after 3922 the results become unstable, works sometimes
     print("The sum from 1 to",num,"is", my_sum(num))
