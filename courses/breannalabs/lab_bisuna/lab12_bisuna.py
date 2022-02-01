@@ -36,4 +36,5 @@ class Computer:
 myComputer = Computer("Intel",100)
 
 # Use getters to display the processor and ram for the computer you constructed
-print("The processor is",myComputer.get_processor(),"with memory",myComputer.get_ram())   
+print("The processor is",myComputer.get_processor(),"with memory",
+    myComputer.get_ram())

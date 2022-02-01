@@ -18,7 +18,7 @@ def split_it_up(a_string, sep):
     mysep = False
     i = 0
     while i < len(a_string):
-        if a_string[i] == sep[0] and mysep != True:
+        if a_string[i] == sep[0] and mysep is not True:
             ssep = sep[0]
             for j in range(len(sep)-1):
                 i += 1
@@ -45,4 +45,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

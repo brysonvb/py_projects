@@ -11,10 +11,9 @@ def my_sum(val):
     paramemter: val number to get summation
     return: summation
     """
-    if val <= 0:
-        return 0
-    else:
+    if val > 0:
         return val + my_sum(val-1)
+    return 0
 
 
 def main():
