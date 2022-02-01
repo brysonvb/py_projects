@@ -1,9 +1,10 @@
+""" testing LRU cache from functools """
 import time
 import functools
-import random
 
 @functools.lru_cache
 def slow_square(number):
+    """ slow square function """
     print(f"Sleeping {number} seconds.")
     time.sleep(number)
     return number**2
@@ -11,6 +12,7 @@ def slow_square(number):
 
 @functools.lru_cache
 def fibon_recur(number):
+    """ recursive fibonacci function """
     if number == 0:
         return 0
     if number == 1:
@@ -19,19 +21,21 @@ def fibon_recur(number):
 
 @functools.lru_cache
 def fibon_loop(number):
+    """ loop fibonacci function """
     if number == 0:
         return 0
     if number == 1:
         return 1
     current = 1
     prev = 1
-    for i in range(1, number-1):
+    for _ in range(1, number-1):
         temp = current
         current += prev
         prev = temp
     return current
 
 def lights(light_array):
+    """ light function """
     if len(light_array) == 0:
         return 0
     current_num = light_array[0]
