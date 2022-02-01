@@ -1,10 +1,12 @@
+""" ex3 """
 print("I will now count my chickens.")
 
 print("Hens", 25 + 30 / 6)
 print("Roosters", 100 - 25 * 3 % 4)
 
 # f-strings
-print(f"Hens %s".format(25))
+EGGS = 25
+print(f"Hens {EGGS}")
 
 print("Now I will count the eggs:")
 
