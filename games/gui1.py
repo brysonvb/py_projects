@@ -1,4 +1,6 @@
-from tkinter import *
+""" Experiment on Tkinter
+"""
+from tkinter import Button, Tk
 
 root = Tk()
 
