@@ -1,5 +1,5 @@
 """
-Lab 13 - Define an employee class with name, hours worked, hourly rate
+lab 13 - Define an employee class with name, hours worked, hourly rate
 Programmed by: Breanna Bisuna
 Date: 24Nov2020
 """

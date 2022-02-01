@@ -1,5 +1,5 @@
 """
-Lab 12 - Fill in the parts for the class
+lab 12 - Fill in the parts for the class
 Programmed by: Breanna Bisuna
 Date: 10Nov2020
 """
