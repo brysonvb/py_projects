@@ -21,6 +21,7 @@ def factorial(num):
 
 
 def main():
+    """ driver """
     print("Factorial of 10:", factorial(10))
     print("Factorial of 15:", factorial(15))
 

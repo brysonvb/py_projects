@@ -1,3 +1,4 @@
+""" lab4a """
 import random
 
 magic = random.randint(1,10)

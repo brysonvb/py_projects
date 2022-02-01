@@ -1,7 +1,8 @@
-name = 'grace hopper'
-str1 = name[0:5]
-str2 = name[6:]
-str3 = "Hi, I'm " + str1
-print(str1)
-print(str2)
-print(str3)
+""" lab2a """
+NAME = 'grace hopper'
+STR1 = NAME[0:5]
+STR2 = NAME[6:]
+STR3 = "Hi, I'm " + STR1
+print(STR1)
+print(STR2)
+print(STR3)

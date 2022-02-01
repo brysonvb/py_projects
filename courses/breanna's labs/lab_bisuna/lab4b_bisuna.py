@@ -1,3 +1,4 @@
+""" lab4b """
 import random
 
 choice1 = input("Enter choice 1: ")

@@ -5,7 +5,7 @@ Date: 10Nov2020
 """
 import sys
 
-def mySum(val):
+def my_sum(val):
     """
     Function returns summation of val1 recursively
     paramemter: val number to get summation
@@ -14,14 +14,17 @@ def mySum(val):
     if val <= 0:
         return 0
     else:
-        return val + mySum(val-1)
+        return val + my_sum(val-1)
 
 
 def main():
+    """ driver """
     # increase recursion depth
-    sys.setrecursionlimit(6000) # even at 6000 recursion limit, my computer can only handle 3922
+    # even at 6000 recursion limit, my computer can only handle 3922
+    sys.setrecursionlimit(6000) 
     num = 3922
-    print("The sum from 1 to",num,"is", mySum(num)) # after 3922 the results become unstable, works sometimes
+    # after 3922 the results become unstable, works sometimes
+    print("The sum from 1 to",num,"is", my_sum(num))
 
 
 if __name__ == "__main__":

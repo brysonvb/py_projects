@@ -19,11 +19,11 @@ def min2(val1, val2=0):
 
 
 def main():
+    """ driver """
     in1 = int(input("Enter an int: "))
     in2 = int(input("Enter an int: "))
     print("The minimum of", in1, "and 0 is", min2(in1))
     print("The minimum of", in1, "and", in2, "is", min2(in1, in2))
 
-    
 if __name__ == "__main__":
     main()
