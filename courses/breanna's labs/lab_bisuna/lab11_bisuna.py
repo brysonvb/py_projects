@@ -10,11 +10,11 @@ def write_file(fn):
     paramemter: filename
     return: create file with name, major, and favorite hobby
     """
-    myFile = open(fn, "w")
-    myFile.write("Breanna Bisuna\n")
-    myFile.write("Computer Science\n")
-    myFile.write("Playing Sports\n")
-    myFile.close()
+    myfile = open(fn, "w", encoding="latin-1")
+    myfile.write("Breanna Bisuna\n")
+    myfile.write("Computer Science\n")
+    myfile.write("Playing Sports\n")
+    myfile.close()
 
 
 def read_file(fn):
@@ -23,19 +23,19 @@ def read_file(fn):
     paramemter: filename
     return: none
     """
-    myFile = open(fn, "r")
-    line = myFile.readline()
+    myfile = open(fn, "r", encoding="latin-1")
+    line = myfile.readline()
     while line != "":
         print(line, end="")
-        line = myFile.readline()
-    myFile.close()
+        line = myfile.readline()
+    myfile.close()
 
 
 def main():
+    """ driver """
     write_file("lab11.txt")
     read_file("lab11.txt")
 
 
 if __name__ == "__main__":
     main()
-    

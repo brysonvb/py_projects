@@ -6,16 +6,16 @@ Date: 8Nov2020
 
 def main():
     """ driver """
-    myList = []
-    myList.append(1)
-    myList.append(2)
-    myList.append(3)
-    sumList = 0
-    for i in myList:
+    mylist = []
+    mylist.append(1)
+    mylist.append(2)
+    mylist.append(3)
+    sumlist = 0
+    for i in mylist:
         print("List element",i)
-        sumList += i
-    print("\nSum of items in list:",sumList)
-    print("Average of items in list:", sumList/len(myList))
+        sumlist += i
+    print("\nSum of items in list:",sumlist)
+    print("Average of items in list:", sumlist/len(mylist))
 
 if __name__ == "__main__":
     main()
