@@ -11,3 +11,5 @@ My personal projects for:
     - Database
     - Web
     - API
+
+![example workflow](https://github.com/brysonvb/py_projects/actions/workflows/lint/badge.svg)
