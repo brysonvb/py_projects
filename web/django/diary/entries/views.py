@@ -14,7 +14,7 @@ from .models import Entry
 class EntryListView(ListView):
     """ Entry view for diary """
     model = Entry
-    queryset = Entry.objects.all().order_by("-date_created")
+    queryset = Entry.objects.all().order_by("-date_created") # pylint: disable=no-member
 
 class EntryDetailView(DetailView):
     """ Entry detail view for diary """
@@ -38,5 +38,6 @@ class EntryUpdateView(UpdateView):
         )
 
 class EntryDeleteView(DeleteView):
+    """ Entry Delete View """
     model = Entry
     success_url = reverse_lazy("entry-list")

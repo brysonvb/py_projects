@@ -1,3 +1,5 @@
+"""Django Models - Diary Entries
+"""
 from django.db import models
 from django.utils import timezone
 
@@ -12,6 +14,6 @@ class Entry(models.Model):
         """ title of entry is retured when object string is queried """
         return str(self.title)
 
-    class Meta:
+    class Meta: # pylint:disable=too-few-public-methods
         """ fix so that django uses Entries instead of Entrys """
         verbose_name_plural = "Entries"
