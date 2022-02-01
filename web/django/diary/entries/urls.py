@@ -1,4 +1,4 @@
-# entries/urls.py
+""" entries/urls.py """
 
 from django.urls import path
 
