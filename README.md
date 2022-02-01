@@ -12,4 +12,4 @@ My personal projects for:
     - Web
     - API
 
-![example workflow](https://github.com/brysonvb/py_projects/actions/workflows/lint/badge.svg)
+![example workflow](https://github.com/brysonvb/py_projects/actions/workflows/pylint.yml/badge.svg)
